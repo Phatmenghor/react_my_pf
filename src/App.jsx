@@ -10,7 +10,9 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Video,
 } from "./components";
+import FotterInfo from "./components/FotterInfo";
 
 const App = () => {
   return (
@@ -24,12 +26,14 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <Video />
         <Feedbacks />
 
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
+        <FotterInfo />
       </div>
     </BrowserRouter>
   );
