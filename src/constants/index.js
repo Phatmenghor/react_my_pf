@@ -286,4 +286,39 @@ export const communityLinks = [
   { href: "#", text: "Jobs" },
 ];
 
+export const contactData = [
+  {
+    title: "React Native Developer",
+    icon: web,
+  },
+  {
+    title: "Web Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: creator,
+  },
+  {
+    title: "FLutter Developer",
+    icon: backend,
+  },
+  {
+    title: "React Native Developer",
+    icon: web,
+  },
+  {
+    title: "Web Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: creator,
+  },
+  {
+    title: "FLutter Developer",
+    icon: backend,
+  },
+];
+
 export { services, technologies, experiences, testimonials, projects };

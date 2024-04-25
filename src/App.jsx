@@ -13,6 +13,7 @@ import {
   Video,
 } from "./components";
 import FotterInfo from "./components/FotterInfo";
+import ContactToMe from "./components/ContactToMe";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <ContactToMe />
         <FotterInfo />
       </div>
     </BrowserRouter>

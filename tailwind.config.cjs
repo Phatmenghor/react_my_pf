@@ -23,5 +23,17 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".scrollbar-hidden": {
+          "scrollbar-width": "none" /* For Firefox */,
+          "-ms-overflow-style": "none" /* For Internet Explorer 10+ */,
+        },
+        ".scrollbar-hidden::-webkit-scrollbar": {
+          display: "none" /* For Chrome, Safari, and Opera */,
+        },
+      });
+    },
+  ],
 };
