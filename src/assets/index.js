@@ -19,7 +19,12 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import flutter from "./tech/flutter.png";
+import nest from "./tech/nest.png";
+import next from "./tech/next.png";
+import reactNative from "./tech/reactNative.png";
 import threejs from "./tech/threejs.svg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,6 +36,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  reactNative,
+  nest,
+  next,
+  flutter,
   logo,
   backend,
   creator,

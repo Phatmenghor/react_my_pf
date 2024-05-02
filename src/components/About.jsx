@@ -48,7 +48,7 @@ const About = () => {
       >
         I'm a skilled software developer with experience in TypeScript,
         JavaScript, Dart, and expertise in frameworks like React native,
-        Flutter, React js, Next js and Node.js . I'm a quick learner and
+        Flutter, Next js, React js and Nest js Backend Development. I'm a quick learner and
         collaborate closely with clients to create efficient, scalable, and
         user-friendly solutions that solve real-world problems. Let's work
         together to bring your ideas to life!

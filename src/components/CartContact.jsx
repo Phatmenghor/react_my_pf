@@ -3,19 +3,22 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const CartContact = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+const CartContact = ({ index, title, icon, link }) => (
+  <Tilt className="xs:w-[200px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div
+      <a
+        href={link}
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        rel="noopener noreferrer"
+        target="_blank"
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[200px] flex justify-evenly items-center flex-col "
       >
         <img
           src={icon}
@@ -26,7 +29,7 @@ const CartContact = ({ index, title, icon }) => (
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
-      </div>
+      </a>
     </motion.div>
   </Tilt>
 );

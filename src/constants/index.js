@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  flutter,
+  next,
+  nest,
+  reactNative,
 } from "../assets";
 
 export const navLinks = [
@@ -46,27 +50,43 @@ const services = [
     icon: web,
   },
   {
-    title: "Web Developer",
-    icon: mobile,
+    title: "FLutter Developer",
+    icon: backend,
   },
   {
     title: "Backend Developer",
     icon: creator,
   },
   {
-    title: "FLutter Developer",
-    icon: backend,
+    title: "Web Developer",
+    icon: mobile,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "React Native",
+    icon: reactNative,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: next,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Nest",
+    icon: nest,
   },
   {
     name: "JavaScript",
@@ -77,14 +97,6 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -93,78 +105,87 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Git",
+    icon: git,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Flutter Developer Internship",
+    company_name: "Z1 Flexible Solution",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "01 Jan 2020 - 01 April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing clone project from scratch mobile applications with real project using Flutter and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing flow responsive design mobile tablet and Web.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "When Internship clone build CIC App and Personal project.",
+      "Pass Inernship with good results.",
+    ],
+  },
+  {
+    title: "Flutter Developer",
+    company_name: "Z1 Flexible Solution",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "01 April 2021 - 01 July 2023",
+    points: [
+      "Developing and maintaining mobile applications using Flutter with team and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing flow responsive design mobile tablet and Web.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Project CIC App, Project Z1 App. and Personal project.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "AMK Microfinance Institution Plc",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "06 July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining mobile applications using React Native and other related technologies.",
+      "Collaborating with cross-functional teams including designers, client , product managers, and other developers to create high-quality products.",
+      "Implementing flow responsive design mobile tablet and complex design.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Project Tonlesap App, Project Seller App , Project Movie App and Personal project.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "AMK Microfinance Institution Plc",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "06 July 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaborating with cross-functional teams including designers, client, product managers, and other developers to create high-quality products.",
+      "Implementing flow responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Project Tonlesap Web.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Freelance Mobile and Web",
+    company_name: "Team Work (Best Friend)",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Freelance",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using Next.js and other related technologies.",
+      "Developing and maintaining mobile applications using Flutter and other related technologies. (Still Develop)",
+      "Collaborating with teams including client(Cambodia microfinance association) to create high-quality products.",
+      "Implementing flow UI responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build and update structure project with clean coding.",
+      "Project Cambodia microfinance association(Web and Mobile applications).",
     ],
   },
 ];
@@ -198,20 +219,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CIC App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "App platform that allows users to sell and buy product with membership , Buy coin , Trading with coin, Change Money to coin , Buy Shared and more ...",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
@@ -219,20 +240,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Z1 App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mobile application that enables open Salary for staff , Pay money buy product in membership that using zpoin, Sell Product and Buy Product with real location and more Mini App.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
@@ -240,25 +261,106 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Tonlesap App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "App platform that allows users to Sell, order product like ecommerce, pay money with bank when order, loan ,weather ,guide farmer with video , delivery with real location, trade user ,expert user, and more information ...",
     tags: [
       {
-        name: "nextjs",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Spring boot",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Tonlesap Web",
+    description:
+      "Web platform that allows users to Sell, order product like ecommerce, pay money with bank when order, loan ,weather ,guide farmer with video , delivery with real location, trade user ,expert user, and more information ...",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Tonlesap Seller App",
+    description:
+      "App platform that allows users to Sell product for farmer, Manage order when have order from Tonlepap App, Add more product when have new product, Manage product (price, stock ...) for sell in Tonlesap app",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Resource Center Web",
+    description:
+      "Web platform a gathering place for documented sources of both domestic and foreign financial sectors, Buy documents, Filter document, View documents, Download, Pay money with bank, Trade User and more ...",
+    tags: [
+      {
+        name: "Next JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next Js Backend",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://orh.cma-academyforbfi.org/",
+  },
+  {
+    name: "Movie App",
+    description:
+      "An advanced app platform designed to elevate your movie-watching experience. Streamline your movie experience with our intuitive interface and integrated features. View movie and listing movie for all country",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nest JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://orh.cma-academyforbfi.org/",
   },
 ];
 
@@ -288,36 +390,24 @@ export const communityLinks = [
 
 export const contactData = [
   {
-    title: "React Native Developer",
-    icon: web,
-  },
-  {
-    title: "Web Developer",
+    title: "Telegram",
     icon: mobile,
+    href: "https://t.me/PhatMenghor",
   },
   {
-    title: "Backend Developer",
-    icon: creator,
-  },
-  {
-    title: "FLutter Developer",
-    icon: backend,
-  },
-  {
-    title: "React Native Developer",
+    title: "Git Hub",
     icon: web,
+    href: "https://github.com/Phatmenghor",
   },
   {
-    title: "Web Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "LinkIn",
     icon: creator,
+    href: "https://www.linkedin.com/in/phat-menghor-124223276/",
   },
   {
-    title: "FLutter Developer",
+    title: "Facebook",
     icon: backend,
+    href: "https://web.facebook.com/profile.php?id=100089332688406",
   },
 ];
 
