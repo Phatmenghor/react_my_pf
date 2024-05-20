@@ -46,11 +46,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript,
-        JavaScript, Dart, and expertise in frameworks like React native,
-        Flutter, Next js, React js and Nest js Backend Development. I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
+        I am a skilled software developer with extensive experience in
+        TypeScript, JavaScript, and Dart, and expertise in frameworks such as
+        React Native, Flutter, Next.js, React.js, and Nest.js for backend
+        development. Known for being a quick learner and an effective
+        collaborator, I work closely with clients to create efficient, scalable,
+        and user-friendly solutions that address real-world problems. Let's work
         together to bring your ideas to life!
       </motion.p>
 
