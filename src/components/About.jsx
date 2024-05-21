@@ -47,12 +47,12 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a skilled software developer with extensive experience in
-        TypeScript, JavaScript, and Dart, and expertise in frameworks such as
-        React Native, Flutter, Next.js, React.js, and Nest.js for backend
-        development. Known for being a quick learner and an effective
-        collaborator, I work closely with clients to create efficient, scalable,
-        and user-friendly solutions that address real-world problems. Let's work
-        together to bring your ideas to life!
+        TypeScript, JavaScript, swift, java and Dart, and expertise in
+        frameworks such as React Native, Flutter, Next.js, React.js, and Nest.js
+        for backend development. Known for being a quick learner and an
+        effective collaborator, I work closely with clients to create efficient,
+        scalable, and user-friendly solutions that address real-world problems.
+        Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

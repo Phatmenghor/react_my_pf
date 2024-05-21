@@ -5,16 +5,12 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -22,11 +18,18 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   flutter,
   next,
   nest,
   reactNative,
+  swift,
+  cic,
+  z1App,
+  tonlesapApp,
+  sellerTonlesap,
+  tonlesapWeb,
+  resource,
+  movie,
 } from "../assets";
 
 export const navLinks = [
@@ -105,6 +108,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Swift",
+    icon: swift,
+  },
+  {
     name: "Figma",
     icon: figma,
   },
@@ -133,8 +140,8 @@ const experiences = [
   {
     title: "Flutter Developer",
     company_name: "Z1 Flexible Solution",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: starbucks,
+    iconBg: "#383E56",
     date: "01 April 2021 - 01 July 2023",
     points: [
       "Spearheaded the development and maintenance of innovative mobile applications using Flutter, alongside a talented team, to meet client requirements and industry standards effectively.",
@@ -147,8 +154,8 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "AMK Microfinance Institution Plc",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: starbucks,
+    iconBg: "#383E56",
     date: "06 July 2023 - Present",
     points: [
       "Spearheaded the development and maintenance of innovative mobile applications using ReactNative, alongside a talented team, to meet client requirements and industry standards effectively.",
@@ -161,7 +168,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "AMK Microfinance Institution Plc",
-    icon: shopify,
+    icon: starbucks,
     iconBg: "#383E56",
     date: "06 July 2023 - Present",
     points: [
@@ -235,7 +242,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: cic,
     source_code_link: "https://github.com/",
   },
   {
@@ -256,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: z1App,
     source_code_link: "https://github.com/",
   },
   {
@@ -277,7 +284,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: tonlesapApp,
     source_code_link: "https://github.com/",
   },
   {
@@ -298,7 +305,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: tonlesapWeb,
     source_code_link: "https://github.com/",
   },
   {
@@ -319,7 +326,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: sellerTonlesap,
     source_code_link: "https://github.com/",
   },
 
@@ -337,7 +344,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: resource,
     source_code_link: "https://orh.cma-academyforbfi.org/",
   },
   {
@@ -358,7 +365,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: movie,
     source_code_link: "https://orh.cma-academyforbfi.org/",
   },
 ];

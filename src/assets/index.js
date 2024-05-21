@@ -16,6 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import swift from "./tech/swift.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -24,7 +25,6 @@ import nest from "./tech/nest.png";
 import next from "./tech/next.png";
 import reactNative from "./tech/reactNative.png";
 import threejs from "./tech/threejs.svg";
-
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,7 +35,23 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cic from "./project/cic.png";
+import z1App from "./project/z1App.png";
+import sellerTonlesap from "./project/sellerTonlesap.png";
+import tonlesapWeb from "./project/tonlesapWeb.png";
+import tonlesapApp from "./project/tonlesapApp.png";
+import resource from "./project/resource.png";
+import movie from "./project/movie.png";
+
 export {
+  movie,
+  resource,
+  tonlesapApp,
+  tonlesapWeb,
+  sellerTonlesap,
+  z1App,
+  cic,
+  swift,
   reactNative,
   nest,
   next,
