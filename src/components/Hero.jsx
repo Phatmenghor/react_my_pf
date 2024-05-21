@@ -25,7 +25,7 @@ const Hero = () => {
             Mobile and Web applications
           </p>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            And Backend Up Comming
+            And Backend Up Coming Soon
           </p>
         </div>
       </div>
