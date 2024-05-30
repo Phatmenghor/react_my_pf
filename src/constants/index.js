@@ -127,7 +127,7 @@ const experiences = [
     company_name: "Z1 Flexible Solution",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "01 Jan 2020 - 01 April 2022",
+    date: "01 Jan 2022 - 01 April 2022",
     points: [
       "Developed mobile applications from scratch using Flutter and related technologies, focusing on clone projects with real-world applications.",
       "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,7 +142,7 @@ const experiences = [
     company_name: "Z1 Flexible Solution",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "01 April 2021 - 01 July 2023",
+    date: "01 April 2022 - 01 July 2023",
     points: [
       "Spearheaded the development and maintenance of innovative mobile applications using Flutter, alongside a talented team, to meet client requirements and industry standards effectively.",
       "Orchestrated seamless collaboration with cross-functional teams comprising designers, product managers, and fellow developers, fostering an environment of creativity and excellence in product delivery.",
