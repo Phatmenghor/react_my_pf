@@ -269,7 +269,7 @@ const projects = [
   {
     name: "Tonlesap App",
     description:
-      "As Tonlesap App's Founder & CEO, spearheaded a multifunctional platform integrating ecommerce, banking transactions, weather updates, agricultural guidance, and real-time delivery tracking. Led full-cycle development, prioritizing user feedback for iterative enhancements. Cultivated a collaborative team ethos, driving innovation and customer satisfaction.",
+      "As Tonlesap App's Developer, spearheaded a multifunctional platform integrating ecommerce, banking transactions, weather updates, agricultural guidance, and real-time delivery tracking. Led full-cycle development, prioritizing user feedback for iterative enhancements. Cultivated a collaborative team ethos, driving innovation and customer satisfaction.",
     tags: [
       {
         name: "React Native",
@@ -290,7 +290,7 @@ const projects = [
   {
     name: "Comsumer Web",
     description:
-      "As Founder & CEO of Tonlesap Web, developed a comprehensive platform enabling ecommerce, banking transactions, weather updates, agricultural guidance, real-time delivery tracking, and user-to-user trading. Led full-cycle development, focusing on user feedback for continuous improvement. Fostered a collaborative team environment to drive innovation and customer satisfaction.",
+      "As Developer of Tonlesap Web, developed a comprehensive platform enabling ecommerce, banking transactions, weather updates, agricultural guidance, real-time delivery tracking, and user-to-user trading. Led full-cycle development, focusing on user feedback for continuous improvement. Fostered a collaborative team environment to drive innovation and customer satisfaction.",
     tags: [
       {
         name: "React JS",
@@ -311,7 +311,7 @@ const projects = [
   {
     name: "Tonlesap Seller App",
     description:
-      "As Founder & CEO of Tonlesap Seller App, developed a comprehensive platform for farmers to sell products, manage orders from the Tonlesap App, and update product listings, including prices and stock levels. Led full-cycle development with a focus on user feedback, fostering a collaborative team environment to drive continuous innovation and ensure high levels of user satisfaction. Thanks You",
+      "As Developer of Tonlesap Seller App, developed a comprehensive platform for farmers to sell products, manage orders from the Tonlesap App, and update product listings, including prices and stock levels. Led full-cycle development with a focus on user feedback, fostering a collaborative team environment to drive continuous innovation and ensure high levels of user satisfaction. Thanks You",
     tags: [
       {
         name: "React Native",
@@ -333,7 +333,7 @@ const projects = [
   {
     name: "Resource Center Web",
     description:
-      "As Founder & CEO of Resource Center Web, developed a platform for accessing domestic and international financial documents. Enabled users to buy, filter, view, and download documents, with secure bank payments and user-to-user trading. Led development, focusing on user feedback for continuous improvement, fostering a collaborative team environment to drive innovation and satisfaction.",
+      "As Developer of Resource Center Web, developed a platform for accessing domestic and international financial documents. Enabled users to buy, filter, view, and download documents, with secure bank payments and user-to-user trading. Led development, focusing on user feedback for continuous improvement, fostering a collaborative team environment to drive innovation and satisfaction.",
     tags: [
       {
         name: "Next JS",
