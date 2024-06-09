@@ -46,14 +46,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a skilled software developer with extensive experience in TypeScript,
-        JavaScript, Swift, Java, and Dart, I specialize in frameworks such as
-        React Native and Next.js. Additionally, I have strong proficiency in
-        Flutter, React.js, and Nest.js. Known for my quick learning ability and
-        collaborative approach, I excel in working closely with clients to
-        develop efficient, scalable, and user-friendly solutions that
-        effectively address real-world problems. Let’s work together to bring
-        your ideas to life!
+        As a skilled software developer with nearly three years of extensive
+        experience in TypeScript, JavaScript, Swift, Java, and Dart, I
+        specialize in frameworks such as React Native and Next.js. Additionally,
+        I have strong proficiency in Flutter, React.js, and Nest.js. Known for
+        my quick learning ability and collaborative approach, I excel in working
+        closely with clients to develop efficient, scalable, and user-friendly
+        solutions that effectively address real-world problems. Let’s work
+        together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -22,10 +22,10 @@ const Hero = () => {
             I'm Software Developer
           </p>
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
-            Best Mobile and Web applications
+            Best on Mobile and Web applications
           </p>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            And Learning Backend (Nest Js)
+            And Backend (Nest Js Still Learning)
           </p>
         </div>
       </div>
